@@ -11,6 +11,7 @@ import woman1 from "./woman1.png";
 import woman2 from "./woman2.png";
 import necklace from "./necklace.png";
 import bag from "./bag.png";
+import woman from "./woman.png";
 
 
 
@@ -30,4 +31,5 @@ export{
     woman2,
     bag,
     necklace,
+    woman,
 }
