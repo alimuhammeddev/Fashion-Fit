@@ -17,9 +17,9 @@ const App = () =>
         </div>
       </div>
 
-      <div className='bg-[#F9F3EE] mt-20'>
+      <div className='bg-[#F9F3EE] mt-20 pb-10'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth} mt-36`}>
+          <div className={`${styles.boxWidth} mt-16`}>
             <Collection />
           </div>
         </div>

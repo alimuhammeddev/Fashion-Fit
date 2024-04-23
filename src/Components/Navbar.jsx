@@ -10,7 +10,7 @@ const Navbar = () => {
     ];
     let [open,setOpen]=useState(false);
   return (
-    <div className='shadow-md w-full fixed top-0 left-0'>
+    <div className='shadow-md w-full fixed top-0 left-0 z-50'>
       <div className='md:flex items-center justify-between bg-white py-4 md:px-48 px-7'>
             <div className='cursor-pointer'>
               <img src={logo} alt="" />
@@ -24,7 +24,7 @@ const Navbar = () => {
               {
                 Links.map((link)=>(
                   <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-                    <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
+                    <a href={link.link} className='text-gray-800 hover:text-[#307098] duration-500'>{link.name}</a>
                   </li>
                 ))
               }
