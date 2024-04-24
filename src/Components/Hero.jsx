@@ -12,8 +12,8 @@ const Hero = () => {
             <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff]'>Shop now</button>
         </div>
         <div className='mt-5 flex justify-center relative'>
-            <img src={hero} alt=""/>
-            <div className="absolute top-1/2 lg:right-10 right-0 rounded-full transform translate-y-50 bg-white px-6 py-4 flex items-center space-x-1 lg:mt-5">
+            <img src={hero} alt="" className='w-[1200px]'/>
+            <div className="absolute top-1/2 lg:right-0 right-0 rounded-full transform translate-y-50 bg-white px-6 py-4 flex items-center space-x-1 lg:mt-5">
                 <img src={whatsapp} alt="" />
                 <p className="text-[#0A3B5A] text-xl -mt-1 font-medium">Chat with an expert</p>
             </div>

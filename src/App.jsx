@@ -12,7 +12,7 @@ const App = () =>
 
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth} mt-36`}>
+        <div className={`mt-36`}>
           <Hero />
         </div>
       </div>

@@ -12,6 +12,9 @@ import woman2 from "./woman2.png";
 import necklace from "./necklace.png";
 import bag from "./bag.png";
 import woman from "./woman.png";
+import lady from "./lady.png";
+import short from  "./short.png";
+import shoes from "./shoes.png";
 
 
 
@@ -32,4 +35,7 @@ export{
     bag,
     necklace,
     woman,
+    lady,
+    shoes,
+    short,
 }
