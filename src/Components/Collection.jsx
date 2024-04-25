@@ -9,7 +9,7 @@ const Collection = () => {
             <p className='text-[#141415] text-[24px]'>Our collections are elegant and of the best quality</p>
         </div>
         
-        <div className='grid md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 lg:gap-3'>
             <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md'>
                 <div className='relative'>
                     <img src={man1} alt="" />

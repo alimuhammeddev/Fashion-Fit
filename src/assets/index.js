@@ -15,6 +15,9 @@ import woman from "./woman.png";
 import lady from "./lady.png";
 import short from  "./short.png";
 import shoes from "./shoes.png";
+import arrowright from "./arrowright.png";
+import arrowleft from "./arrowleft.png";
+
 
 
 
@@ -38,4 +41,6 @@ export{
     lady,
     shoes,
     short,
+    arrowright,
+    arrowleft,
 }
