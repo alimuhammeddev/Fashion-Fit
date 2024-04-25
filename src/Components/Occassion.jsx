@@ -8,8 +8,8 @@ const Occassion = () => {
             <img src={woman} alt="" />
         </div>
         <div className='lg:px-2'>
-            <h1 className='text-[#141415] text-[36px] text-center'>Outfit for every occassion</h1>
-            <p className='text-[24px] text-[#141415] text-center'>Explore outfits that are perfect for your next beach outing</p>
+            <h1 className='text-[#141415] lg:text-[36px] text-[26px] font-semibold text-center'>Outfit for every occassion</h1>
+            <p className='lg:text-[24px] text-[18px] mt-2 text-[#141415] text-center'>Explore outfits that are perfect for your next beach outing</p>
             <div className='mx-auto text-center mt-5'>
                 <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff]'>Shop now</button>
             </div>

@@ -5,8 +5,8 @@ const Collection = () => {
   return (
     <section>
         <div>
-            <h1 className='text-[#141415] text-[36px] font-medium'>New Collection!</h1>
-            <p className='text-[#141415] text-[24px]'>Our collections are elegant and of the best quality</p>
+            <h1 className='text-[#141415] lg:text-[36px] text-[26px] font-medium'>New Collection!</h1>
+            <p className='text-[#141415] lg:text-[24px] text-[15px] mt-2'>Our collections are elegant and of the best quality</p>
         </div>
         
         <div className='grid md:grid-cols-2 lg:grid-cols-3 lg:gap-3'>
@@ -18,7 +18,7 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
@@ -31,7 +31,7 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
@@ -70,7 +70,7 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
@@ -83,7 +83,7 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
