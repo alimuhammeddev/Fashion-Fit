@@ -13,8 +13,8 @@ const Reviews = () => {
   return (
     <section>
       <div>
-        <h1 className='text-center text-[#141415] lg:text-[36px] font-bold'>Reviews</h1>
-        <p className='text-[#141415] lg:text-[24px] font-medium text-center'>What our clients say about us</p>
+        <h1 className='text-center text-[#141415] lg:text-[36px] text-[25px] font-bold'>Reviews</h1>
+        <p className='text-[#141415] lg:text-[24px] text-[17px] font-medium text-center'>What our clients say about us</p>
       </div>
       <Swiper
       // install Swiper modules
