@@ -95,7 +95,7 @@ function Sellers() {
         </button>
       <div className="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
         <div className='bg-[#0A3B5A] p-3 py-3 w-fit'>
-            <h1 className='text-[#FFFFFF] text-[24px] font-medium'>Our Best Sellers</h1>
+            <h1 className='text-[#FFFFFF] lg:text-[24px] text-[15px] font-medium'>Our Best Sellers</h1>
         </div>
         <div id="keen-slider" className="keen-slider -mt-12">
           <div className="keen-slider__slide justify-center flex">
@@ -107,7 +107,7 @@ function Sellers() {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
@@ -122,7 +122,7 @@ function Sellers() {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
@@ -136,7 +136,7 @@ function Sellers() {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px]'>Jean Jacket</h1>
+                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
             </div>
