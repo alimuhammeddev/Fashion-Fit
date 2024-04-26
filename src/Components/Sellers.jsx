@@ -60,7 +60,7 @@ function Sellers() {
         <button
             aria-label="Previous slide"
             id="keen-slider-previous"
-            className="absolute lg:-left-5 left-1 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-50 bg-[#557F99]"
+            className="absolute lg:-left-5 -left-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-50 bg-[#557F99]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function Sellers() {
           <button
             aria-label="Next slide"
             id="keen-slider-next"
-            className="absolute lg:-right-5 right-1 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-50"
+            className="absolute lg:-right-5 -right-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-50"
           >
            <svg
             className="size-6 rtl:rotate-180"
@@ -94,7 +94,7 @@ function Sellers() {
           </svg>
         </button>
       <div className="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
-        <div className='bg-[#0A3B5A] p-3 py-3 w-fit lg:m-0 ml-12'>
+        <div className='bg-[#0A3B5A] p-3 py-3 w-fit'>
             <h1 className='text-[#FFFFFF] text-[24px] font-medium'>Our Best Sellers</h1>
         </div>
         <div id="keen-slider" className="keen-slider -mt-12">
