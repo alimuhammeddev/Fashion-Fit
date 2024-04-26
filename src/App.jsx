@@ -35,7 +35,7 @@ const App = () =>
 
       <div className='bg-[#F9F3EE] mt-20 pb-10'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth} mt-16`}>
+          <div className={`${styles.boxWidth} mt-7`}>
             <Sellers />
           </div>
         </div>
