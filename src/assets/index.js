@@ -19,6 +19,9 @@ import arrowright from "./arrowright.png";
 import arrowleft from "./arrowleft.png";
 import rating1 from "./rating1.png";
 import rating2 from "./rating2.png";
+import boy from "./boy.png";
+import girl1 from "./girl1.png";
+import girl2 from "./girl2.png";
 
 
 
@@ -47,4 +50,7 @@ export{
     arrowleft,
     rating1,
     rating2,
+    boy,
+    girl1,
+    girl2,
 }

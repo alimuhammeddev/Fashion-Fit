@@ -31,8 +31,8 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>Wide-leg pants</h1>
+                    <h2 className='text-[16px]'>N25,000</h2>
                 </div>
             </div>
 
@@ -44,8 +44,8 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>Brown Bags Set</h1>
+                    <h2 className='text-[16px]'>N60,000</h2>
                 </div>
             </div>
 
@@ -57,8 +57,8 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>Layered necklace</h1>
+                    <h2 className='text-[16px]'>N12,000</h2>
                 </div>
             </div>
 
@@ -70,8 +70,8 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>Hoodie</h1>
+                    <h2 className='text-[16px]'>N15,000</h2>
                 </div>
             </div>
 
@@ -83,8 +83,8 @@ const Collection = () => {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>Blue Crop Top</h1>
+                    <h2 className='text-[16px]'>N8,000</h2>
                 </div>
             </div>
         </div>

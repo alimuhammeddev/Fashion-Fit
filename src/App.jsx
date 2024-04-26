@@ -33,7 +33,7 @@ const App = () =>
         </div>
       </div>
 
-      <div className='bg-[#F9F3EE] mt-20 pb-10'>
+      <div className='bg-[#FDFBF9] mt-20 pb-10'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth} mt-7`}>
             <Sellers />
@@ -41,9 +41,9 @@ const App = () =>
         </div>
       </div>
 
-      <div className='bg-[#ffffff] lg:mt-20 pb-10'>
+      <div className='bg-[#ffffff] lg:mt-10 pb-10'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth} mt-16`}>
+          <div className={`${styles.boxWidth} mt-10`}>
             <Reviews />
           </div>
         </div>

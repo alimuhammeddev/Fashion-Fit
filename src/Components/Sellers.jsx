@@ -60,7 +60,7 @@ function Sellers() {
         <button
             aria-label="Previous slide"
             id="keen-slider-previous"
-            className="absolute lg:-left-5 -left-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-50 bg-[#557F99]"
+            className="absolute lg:-left-5 -left-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-10 bg-[#557F99]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function Sellers() {
           <button
             aria-label="Next slide"
             id="keen-slider-next"
-            className="absolute lg:-right-5 -right-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-50"
+            className="absolute lg:-right-5 -right-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-10"
           >
            <svg
             className="size-6 rtl:rotate-180"
@@ -107,8 +107,8 @@ function Sellers() {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>Corset Midi Dress</h1>
+                    <h2 className='text-[16px]'>N34,000</h2>
                 </div>
                 <div className='flex items-center mx-auto justify-center space-x-1 mt-2'>
                   <img src={rating1} alt="" />
@@ -128,8 +128,8 @@ function Sellers() {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>Textured Shorts</h1>
+                    <h2 className='text-[16px]'>N25,000</h2>
                 </div>
                 <div className='flex items-center mx-auto justify-center space-x-1 mt-2'>
                   <img src={rating1} alt="" />
@@ -148,8 +148,8 @@ function Sellers() {
                     </div>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
-                    <h2 className='text-[16px]'>N22,000</h2>
+                    <h1 className='mt-2 text-[20px] font-medium'>White Sneakers</h1>
+                    <h2 className='text-[16px]'>N33,000</h2>
                 </div>
                 <div className='flex items-center mx-auto justify-center space-x-1 mt-2'>
                   <img src={rating2} alt="" />
