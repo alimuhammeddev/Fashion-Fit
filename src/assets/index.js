@@ -17,6 +17,8 @@ import short from  "./short.png";
 import shoes from "./shoes.png";
 import arrowright from "./arrowright.png";
 import arrowleft from "./arrowleft.png";
+import rating1 from "./rating1.png";
+import rating2 from "./rating2.png";
 
 
 
@@ -43,4 +45,6 @@ export{
     short,
     arrowright,
     arrowleft,
+    rating1,
+    rating2,
 }

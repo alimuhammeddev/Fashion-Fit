@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import KeenSlider from 'keen-slider';
-import { lady, shoes, short, wishlist } from '../assets';
+import { lady, rating1, rating2, shoes, short, wishlist } from '../assets';
 
 function Sellers() {
     useEffect(() => {
@@ -110,6 +110,12 @@ function Sellers() {
                     <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
+                <div className='flex items-center mx-auto justify-center space-x-1 mt-2'>
+                  <img src={rating1} alt="" />
+                  <div>
+                    <h1 className='text-[10px]'>4.9 (67 reviews)</h1>
+                  </div>
+                </div>
             </div>
           </div>
   
@@ -125,6 +131,12 @@ function Sellers() {
                     <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
                 </div>
+                <div className='flex items-center mx-auto justify-center space-x-1 mt-2'>
+                  <img src={rating1} alt="" />
+                  <div>
+                    <h1 className='text-[10px]'>4.5 (41 reviews)</h1>
+                  </div>
+                </div>
             </div>
           </div>
           <div className="keen-slider__slide justify-center flex">
@@ -138,6 +150,12 @@ function Sellers() {
                 <div className='text-center space-y-2'>
                     <h1 className='mt-2 text-[20px] font-medium'>Jean Jacket</h1>
                     <h2 className='text-[16px]'>N22,000</h2>
+                </div>
+                <div className='flex items-center mx-auto justify-center space-x-1 mt-2'>
+                  <img src={rating2} alt="" />
+                  <div>
+                    <h1 className='text-[10px]'>4.0 (24 reviews)</h1>
+                  </div>
                 </div>
             </div>
           </div>
