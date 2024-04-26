@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Collection from "./Collection";
 import Occassion from "./Occassion";
 import Sellers from "./Sellers";
+import Reviews from "./Reviews";
 
 
 export {
@@ -11,4 +12,5 @@ export {
     Collection,
     Occassion,
     Sellers,
+    Reviews,
 }

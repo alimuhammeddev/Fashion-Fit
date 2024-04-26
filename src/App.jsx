@@ -1,5 +1,5 @@
 import styles from './style'
-import { Collection, Hero, Navbar, Occassion, Sellers,} from './Components';
+import { Collection, Hero, Navbar, Occassion, Reviews, Sellers,} from './Components';
 
 const App = () =>
   (
@@ -37,6 +37,14 @@ const App = () =>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth} mt-7`}>
             <Sellers />
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-[#ffffff] lg:mt-20 pb-10'>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth} mt-16`}>
+            <Reviews />
           </div>
         </div>
       </div>
