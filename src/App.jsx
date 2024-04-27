@@ -75,9 +75,7 @@ const App = () =>
             <h1 className='border border-[#82776D] mt-10'></h1>
         </div>
         <div className='flex items-center gap-3 text-[12px] mx-auto justify-center mt-10'>
-          <h1>2023 FASHION FIT</h1>
-          <h1 className='bg-[#82776D] p-1 w-fit rounded-full'></h1>
-          <p>All right reserved.</p>
+          <h1 className='flex items-center space-x-2'>2023 FASHION FIT <span><h1 className='bg-[#82776D] p-1 w-fit rounded-full ml-2'></h1></span> <p>All right reserved.</p></h1>
           <p>Designed by Adenike Abioye</p>
         </div>
       </div>
