@@ -6,6 +6,7 @@ import Sellers from "./Sellers";
 import Reviews from "./Reviews";
 import Benefit from "./Benefit";
 import Blog from "./Blog";
+import Footer from "./Footer";
 
 
 export {
@@ -17,4 +18,5 @@ export {
     Reviews,
     Benefit,
     Blog,
+    Footer,
 }

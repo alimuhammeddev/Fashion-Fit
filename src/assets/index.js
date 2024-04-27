@@ -29,6 +29,10 @@ import verification from "./verification.png";
 import accessories from "./accessories.png";
 import fashion from "./fashion.png";
 import beauty from "./beauty.png";
+import twitter from "./twitter.png";
+import facebook from "./facebook.png";
+import instagram from "./instagram.png";
+import arrowdown from "./arrowdown.png";
 
 
 
@@ -67,4 +71,8 @@ export{
     accessories,
     fashion,
     beauty,
+    twitter,
+    facebook,
+    instagram,
+    arrowdown,
 }
