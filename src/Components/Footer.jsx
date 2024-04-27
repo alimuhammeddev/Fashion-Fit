@@ -3,7 +3,7 @@ import { arrowdown, facebook, instagram, logo, twitter } from '../assets'
 
 const Footer = () => {
   return (
-    <section className='px-10'>
+    <section className='lg:px-10'>
         <div className='grid grid-cols-1 md:gird-cols-2 lg:grid-cols-4 lg:gap-36 md:gap-5 gap-5'>
             <div>
                 <img src={logo} alt="" />
