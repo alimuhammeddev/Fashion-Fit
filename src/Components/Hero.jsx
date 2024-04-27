@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section>
         <div>
-            <h1 className='text-[#141415] lg:text-[64px] text-[30px] font-semibold text-center'>Find your <span className='text-[#FFCC4D]'>style</span> in our collection</h1>
+            <h1 className='text-[#141415] lg:text-[64px] text-[30px] font-bold text-center'>Find your <span className='text-[#FFCC4D]'>style</span> in our collection</h1>
             <p className='lg:text-[24px] text-[18px] text-center text-[#141415]'>Fashion is a way of life. Experience fashion at its best as <br className='hidden lg:block'/> you shop from our collections </p>
         </div>
         <div className='mx-auto text-center mt-5'>
