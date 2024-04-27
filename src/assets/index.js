@@ -26,6 +26,9 @@ import bike from "./bike.png";
 import discount from "./discount.png";
 import support from "./support.png";
 import verification from "./verification.png";
+import accessories from "./accessories.png";
+import fashion from "./fashion.png";
+import beauty from "./beauty.png";
 
 
 
@@ -61,4 +64,7 @@ export{
     discount,
     support,
     verification,
+    accessories,
+    fashion,
+    beauty,
 }

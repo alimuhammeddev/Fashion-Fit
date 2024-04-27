@@ -1,5 +1,5 @@
 import styles from './style'
-import { Benefit, Collection, Hero, Navbar, Occassion, Reviews, Sellers,} from './Components';
+import { Benefit, Blog, Collection, Hero, Navbar, Occassion, Reviews, Sellers,} from './Components';
 
 const App = () =>
   (
@@ -53,6 +53,14 @@ const App = () =>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth} mt-10`}>
             <Benefit />
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-[#F9F3EE] lg:mt- pb-10'>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth} mt-16`}>
+            <Blog />
           </div>
         </div>
       </div>
