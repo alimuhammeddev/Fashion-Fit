@@ -10,7 +10,7 @@ const Collection = () => {
         </div>
         
         <div className='grid md:grid-cols-2 lg:grid-cols-3 lg:gap-3'>
-            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md'>
+            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md hover:shadow-[#307098] cursor-pointer transition duration-700 ease-out'>
                 <div className='relative'>
                     <img src={man1} alt="" />
                     <div className='absolute bottom-10 right-7 transform translate-y-1/2 bg-[#FFFFFFCC] shadow-xl px-2 py-2 rounded-full w-fit'>
@@ -23,7 +23,7 @@ const Collection = () => {
                 </div>
             </div>
 
-            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md'>
+            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md cursor-pointer hover:shadow-[#307098] transition duration-700 ease-out'>
                 <div className='relative'>
                     <img src={woman1} alt="" />
                     <div className='absolute bottom-10 right-7 transform translate-y-1/2 bg-[#FFFFFFCC] shadow-xl px-2 py-2 rounded-full w-fit'>
@@ -36,7 +36,7 @@ const Collection = () => {
                 </div>
             </div>
 
-            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md'>
+            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md cursor-pointer hover:shadow-[#307098] transition duration-700 ease-out'>
                 <div className='relative'>
                     <img src={bag} alt="" />
                     <div className='absolute bottom-10 right-7 transform translate-y-1/2 bg-[#FFFFFFCC] shadow-xl px-2 py-2 rounded-full w-fit'>
@@ -49,7 +49,7 @@ const Collection = () => {
                 </div>
             </div>
 
-            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md'>
+            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md cursor-pointer hover:shadow-[#307098] transition duration-700 ease-out'>
                 <div className='relative'>
                     <img src={necklace} alt="" />
                     <div className='absolute bottom-10 right-7 transform translate-y-1/2 bg-[#FFFFFFCC] shadow-xl px-2 py-2 rounded-full w-fit'>
@@ -62,7 +62,7 @@ const Collection = () => {
                 </div>
             </div>
 
-            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md'>
+            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md cursor-pointer hover:shadow-[#307098] transition duration-700 ease-out'>
                 <div className='relative'>
                     <img src={man2} alt="" />
                     <div className='absolute bottom-10 right-7 transform translate-y-1/2 bg-[#FFFFFFCC] shadow-xl px-2 py-2 rounded-full w-fit'>
@@ -75,7 +75,7 @@ const Collection = () => {
                 </div>
             </div>
 
-            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md'>
+            <div className='bg-[#ffffff] w-fit pb-2 mt-10 border-[#CAD7DF] border shadow-md cursor-pointer hover:shadow-[#307098] transition duration-700 ease-out'>
                 <div className='relative'>
                     <img src={woman2} alt="" />
                     <div className='absolute bottom-10 right-7 transform translate-y-1/2 bg-[#FFFFFFCC] shadow-xl px-2 py-2 rounded-full w-fit'>
@@ -89,7 +89,7 @@ const Collection = () => {
             </div>
         </div>
         <div className='mx-auto text-center mt-7'>
-            <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff]'>Shop all</button>
+            <button className='bg-[#307098] w-[190px] h-[48px] hover:text-[#307098] transition duration-500 ease-out text-[#ffffff] hover:bg-[#ffffff] border border-[#307098]'>Shop all</button>
         </div>
     </section>
   )

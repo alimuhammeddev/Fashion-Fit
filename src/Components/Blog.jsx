@@ -30,7 +30,7 @@ const Blog = () => {
       </div>
 
       <div className='mx-auto text-center mt-7'>
-          <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff]'>More blogs</button>
+          <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098]'>More blogs</button>
       </div>
     </section>
   )

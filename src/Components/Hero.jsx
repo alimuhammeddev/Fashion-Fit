@@ -9,7 +9,7 @@ const Hero = () => {
             <p className='lg:text-[24px] text-[18px] text-center text-[#141415]'>Fashion is a way of life. Experience fashion at its best as <br className='hidden lg:block'/> you shop from our collections </p>
         </div>
         <div className='mx-auto text-center mt-5'>
-            <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff]'>Shop now</button>
+            <button className='bg-[#307098] w-[190px] h-[48px] hover:text-[#307098] transition duration-500 ease-out text-[#ffffff] hover:bg-[#ffffff] border border-[#307098]'>Shop now</button>
         </div>
         <div className='mt-5 flex justify-center relative'>
             <img src={hero} alt="" className='w-[1200px]'/>
