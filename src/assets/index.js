@@ -22,6 +22,10 @@ import rating2 from "./rating2.png";
 import boy from "./boy.png";
 import girl1 from "./girl1.png";
 import girl2 from "./girl2.png";
+import bike from "./bike.png";
+import discount from "./discount.png";
+import support from "./support.png";
+import verification from "./verification.png";
 
 
 
@@ -53,4 +57,8 @@ export{
     boy,
     girl1,
     girl2,
+    bike,
+    discount,
+    support,
+    verification,
 }
