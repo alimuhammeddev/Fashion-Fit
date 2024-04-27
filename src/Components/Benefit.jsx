@@ -10,7 +10,7 @@ const Benefit = () => {
         </div>
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:px-28 lg:gap-0 gap-10 mt-10'>
             <div>
-                <div className='bg-[#EEF2F5] p-7 w-fit rounded-full mx-auto'>
+                <div className='bg-[#EEF2F5] lg:p-7 p-5 w-fit rounded-full mx-auto'>
                     <img src={bike} alt="" />
                 </div>
                 <h1 className='text-[16px] font-bold text-[#141415] text-center mt-3'>Prompt Delivery</h1>
@@ -18,7 +18,7 @@ const Benefit = () => {
             </div>
 
             <div>
-                <div className='bg-[#EEF2F5] p-7 w-fit rounded-full mx-auto'>
+                <div className='bg-[#EEF2F5] lg:p-7 p-5 w-fit rounded-full mx-auto'>
                     <img src={verification} alt="" />
                 </div>
                 <h1 className='text-[16px] font-bold text-[#141415] text-center mt-3'>Quality Products</h1>
@@ -26,7 +26,7 @@ const Benefit = () => {
             </div>
 
             <div>
-                <div className='bg-[#EEF2F5] p-7 w-fit rounded-full mx-auto'>
+                <div className='bg-[#EEF2F5] lg:p-7 p-5 w-fit rounded-full mx-auto'>
                     <img src={support} alt="" />
                 </div>
                 <h1 className='text-[16px] font-bold text-[#141415] text-center mt-3'>Customer support 24/7</h1>
@@ -34,7 +34,7 @@ const Benefit = () => {
             </div>
 
             <div>
-                <div className='bg-[#EEF2F5] p-7 w-fit rounded-full mx-auto'>
+                <div className='bg-[#EEF2F5] lg:p-7 p-5 w-fit rounded-full mx-auto'>
                     <img src={discount} alt="" />
                 </div>
                 <h1 className='text-[16px] font-bold text-[#141415] text-center mt-3'>10% off first order</h1>
