@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import { cart, logo, person, search, wishlist } from '../assets';
-
+import { Link } from 'react-router-dom'; 
 const Navbar = () => {
-    let Links =[
+    const Links =[
       {name:"Home",link:"/"},
-      {name:"About us",link:"/"},
+      {name:"About us",link:"/about"},
       {name:"Collections",link:"/"},
       {name:"Contact us",link:"/"},
     ];
     let [open,setOpen]=useState(false);
-  return (
+return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
       <div className='md:flex items-center justify-between bg-white py-4 lg:px-48 px-7'>
             <div className='cursor-pointer'>
@@ -24,7 +24,7 @@ const Navbar = () => {
               {
                 Links.map((link)=>(
                   <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 md:mr-14 lg:mr-5'>
-                    <a href={link.link} className='text-gray-800 hover:text-[#307098] duration-500'>{link.name}</a>
+                    <Link to={link.link} className='text-gray-800 hover:text-[#307098] duration-500'>{link.name}</Link>
                   </li>
                 ))
               }

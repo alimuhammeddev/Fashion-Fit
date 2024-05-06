@@ -1,9 +1,13 @@
 import React from 'react'
 import { arrowdown, facebook, instagram, logo, twitter } from '../assets'
+import styles from '../style'
 
 const Footer = () => {
   return (
-    <section className='lg:px-10'>
+    <section>
+        <div className="lg:px-32">
+        <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+        <div className={`${styles.boxWidth} mt-16`}>
         <div className='grid grid-cols-1 md:gird-cols-2 lg:grid-cols-4 lg:gap-36 md:gap-5 gap-5'>
             <div>
                 <img src={logo} alt="" />
@@ -64,6 +68,16 @@ const Footer = () => {
                     <img src={instagram} alt="" />
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div>
+            <h1 className='border border-[#82776D] mt-10'></h1>
+        </div>
+        <div className='lg:flex lg:gap-5 text-[12px] items-center mx-auto justify-center mt-10'>
+          <h1 className='flex items-center space-x-2 text-center justify-center lg:text-left'>2023 FASHION FIT <span><h1 className='bg-[#82776D] p-1 w-fit rounded-full ml-2'></h1></span> <p>All right reserved.</p></h1>
+          <p className='text-center lg:text-left'>Designed by Adenike Abioye</p>
         </div>
     </section>
   )

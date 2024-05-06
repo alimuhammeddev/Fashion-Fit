@@ -7,7 +7,7 @@ import Reviews from "./Reviews";
 import Benefit from "./Benefit";
 import Blog from "./Blog";
 import Footer from "./Footer";
-
+import About from "./About";
 
 export {
     Navbar,
@@ -19,4 +19,5 @@ export {
     Benefit,
     Blog,
     Footer,
+    About,
 }

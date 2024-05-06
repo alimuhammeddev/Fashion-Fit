@@ -1,15 +1,17 @@
-import styles from './style'
-import { Benefit, Blog, Collection, Footer, Hero, Navbar, Occassion, Reviews, Sellers,} from './Components';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import styles from './style';
+import { Benefit, Blog, Collection, Footer, Hero, Navbar, Occassion, Reviews, Sellers, } from './Components';
+import About from './Components/About'; // Import the About component
 
-const App = () =>
-  (
+const App = () => (
+  <Router> {/* Wrap your entire application with the BrowserRouter */}
     <div className='bg-white w-full overflow-hidden text-black'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Navbar/>
+          <Navbar />
         </div>
       </div>
-
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`mt-36`}>
@@ -66,21 +68,18 @@ const App = () =>
       </div>
 
       <div className='bg-[#F3E5D9] pb-8'>
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth} mt-16`}>
+        <div>
+          <div>
             <Footer />
           </div>
         </div>
-        <div>
-            <h1 className='border border-[#82776D] mt-10'></h1>
-        </div>
-        <div className='lg:flex lg:gap-5 text-[12px] items-center mx-auto justify-center mt-10'>
-          <h1 className='flex items-center space-x-2 justify-center text-center'>2023 FASHION FIT <span><h1 className='bg-[#82776D] p-1 w-fit rounded-full ml-2'></h1></span> <p>All right reserved.</p></h1>
-          <p className='text-center lg:text-left'>Designed by Adenike Abioye</p>
-        </div>
       </div>
+
+      <Routes> {/* Define your routes */}
+        <Route path="/about" element={<About />} /> {/* Define route for About component */}
+      </Routes>
     </div>
-  );
+  </Router>
+);
 
-
-export default App
+export default App;
