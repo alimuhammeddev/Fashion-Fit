@@ -1,5 +1,5 @@
 import React from 'react'
-import { hero, whatsapp } from '../assets'
+import { hero, whatsapp } from '../../assets'
 
 const Hero = () => {
   return (

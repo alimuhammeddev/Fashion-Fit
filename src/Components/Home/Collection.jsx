@@ -1,5 +1,5 @@
 import React from 'react'
-import { bag, man1, man2, necklace, wishlist, woman1, woman2 } from '../assets'
+import { bag, man1, man2, necklace, wishlist, woman1, woman2 } from '../../assets'
 
 const Collection = () => {
   return (

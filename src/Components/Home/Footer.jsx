@@ -1,6 +1,6 @@
 import React from 'react'
-import { arrowdown, facebook, instagram, logo, twitter } from '../assets'
-import styles from '../style'
+import { arrowdown, facebook, instagram, logo, twitter } from '../../assets'
+import styles from '../../style'
 
 const Footer = () => {
   return (

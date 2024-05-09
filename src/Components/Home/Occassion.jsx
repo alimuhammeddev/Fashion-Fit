@@ -1,5 +1,5 @@
 import React from 'react'
-import { woman } from '../assets'
+import { woman } from '../../assets'
 
 const Occassion = () => {
   return (

@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import KeenSlider from 'keen-slider';
-import { lady, rating1, rating2, shoes, short, wishlist } from '../assets';
+import { lady, rating1, rating2, shoes, short, wishlist } from '../../assets';
 
 function Sellers() {
     useEffect(() => {

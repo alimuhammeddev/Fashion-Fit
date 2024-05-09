@@ -1,13 +1,14 @@
 import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Collection from "./Collection";
-import Occassion from "./Occassion";
-import Sellers from "./Sellers";
-import Reviews from "./Reviews";
-import Benefit from "./Benefit";
-import Blog from "./Blog";
-import Footer from "./Footer";
+import Hero from "./Home/Hero";
+import Collection from "./Home/Collection";
+import Occassion from "./Home/Occassion";
+import Sellers from "./Home/Sellers";
+import Reviews from "./Home/Reviews";
+import Benefit from "./Home/Benefit";
+import Blog from "./Home/Blog";
+import Footer from "./Home/Footer";
 import About from "../Pages/About";
+import Home from "../Pages/Home";
 
 export {
     Navbar,
@@ -20,4 +21,5 @@ export {
     Blog,
     Footer,
     About,
+    Home,
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { bike, discount, support, verification } from '../assets'
+import { bike, discount, support, verification } from '../../assets'
 
 const Benefit = () => {
   return (

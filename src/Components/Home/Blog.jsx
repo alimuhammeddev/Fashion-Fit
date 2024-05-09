@@ -1,5 +1,5 @@
 import React from 'react'
-import { accessories, beauty, fashion } from '../assets'
+import { accessories, beauty, fashion } from '../../assets'
 
 const Blog = () => {
   return (

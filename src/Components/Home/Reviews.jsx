@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { girl1, girl2, boy } from '../assets';
+import { girl1, girl2, boy } from '../../assets';
 
 const Reviews = () => {
   return (
