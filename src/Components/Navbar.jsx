@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
 import { cart, logo, person, search, wishlist } from '../assets';
-import { Link } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
     const Links =[
-      {name:"Home",link:"/"},
-      {name:"About us",link:"/about"},
-      {name:"Collections",link:"/"},
-      {name:"Contact us",link:"/"},
+      {name: "Home",link:"/" },
+      {name: "About us", link:"/about" },
+      {name: "Collections", link:"/" },
+      {name: "Contact us", link:"/" },
     ];
-    let [open,setOpen]=useState(false);
+
+
+    const [open,setOpen]=useState(false);
 return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
       <div className='md:flex items-center justify-between bg-white py-4 lg:px-48 px-7'>
@@ -22,9 +24,9 @@ return (
 
             <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] bg-[#ffffff] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'} lg:shadow-none md:shadow-none shadow-md`}>
               {
-                Links.map((link)=>(
-                  <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 md:mr-14 lg:mr-5'>
-                    <Link to={link.link} className='text-gray-800 hover:text-[#307098] duration-500'>{link.name}</Link>
+                Links.map((link, index)=>(
+                  <li key={index} className='md:ml-8 text-xl md:my-0 my-7 md:mr-14 lg:mr-5'>
+                    <CustomLink to={link.link} className="text-gray-800 hover:text-[#307098] duration-500">{link.name}</CustomLink>
                   </li>
                 ))
               }
@@ -43,7 +45,23 @@ return (
             </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
+
+const CustomLink = ({ to, children }) => {
+  const navigate = useNavigate();
+
+  const handleClick = (event) => {
+      event.preventDefault();
+      navigate(to);
+  };
+
+  return (
+      <a href={to} onClick={handleClick} className="text-gray-800 hover:text-[#307098] duration-500">
+          {children}
+      </a>
+  );
+};
 
 export default Navbar

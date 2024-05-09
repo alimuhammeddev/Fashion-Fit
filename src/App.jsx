@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styles from './style';
 import { Benefit, Blog, Collection, Footer, Hero, Navbar, Occassion, Reviews, Sellers, } from './Components';
-import About from './Components/About'; // Import the About component
+import About from './Pages/About';
 
 const App = () => (
   <Router> {/* Wrap your entire application with the BrowserRouter */}
