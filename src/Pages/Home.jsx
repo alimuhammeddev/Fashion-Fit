@@ -6,15 +6,15 @@ const Home = () => {
   return (
     <section>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+          <div className={`${styles.boxWidth}`}>
             <Navbar />
-            </div>
+          </div>
         </div>
 
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`mt-36`}>
+          <div className={`mt-36`}>
             <Hero />
-            </div>
+          </div>
         </div>
 
       <div className='bg-[#F9F3EE] mt-20 pb-10'>

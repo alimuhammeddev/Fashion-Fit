@@ -9,8 +9,13 @@ const Navbar = () => {
       {name: "Contact us", link:"/" },
     ];
 
-
+    const navigate = useNavigate();
     const [open,setOpen]=useState(false);
+
+    const handleNavigation = (link) => {
+      navigate(link);
+      setOpen(false); // Close the menu after navigation
+    };
 return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
       <div className='md:flex items-center justify-between bg-white py-4 lg:px-48 px-7'>
@@ -25,8 +30,8 @@ return (
             <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] bg-[#ffffff] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'} lg:shadow-none md:shadow-none shadow-md`}>
               {
                 Links.map((link, index)=>(
-                  <li key={index} className='md:ml-8 text-xl md:my-0 my-7 md:mr-14 lg:mr-5'>
-                    <CustomLink to={link.link} className="text-gray-800 hover:text-[#307098] duration-500">{link.name}</CustomLink>
+                  <li key={index} className='md:ml-8 text-xl md:my-0 my-7 md:mr-14 lg:mr-5 cursor-pointer'>
+                    <a onClick={() => handleNavigation(link.link)} className="text-gray-800 hover:text-[#307098] duration-500">{link.name}</a>
                   </li>
                 ))
               }

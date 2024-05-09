@@ -33,6 +33,7 @@ import twitter from "./twitter.png";
 import facebook from "./facebook.png";
 import instagram from "./instagram.png";
 import arrowdown from "./arrowdown.png";
+import walking from "./walking.png"
 
 
 
@@ -75,4 +76,5 @@ export{
     facebook,
     instagram,
     arrowdown,
+    walking,
 }
