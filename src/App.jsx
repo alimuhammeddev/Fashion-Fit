@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import styles from './style';
-import { Benefit, Blog, Collection, Footer, Hero, Navbar, Occassion, Reviews, Sellers, } from './Components';
 import About from './Pages/About';
 import Home from './Pages/Home';
 
