@@ -5,7 +5,7 @@ const Values = () => {
   return (
     <section>
         <div>
-            <h1 className='lg:text-[36px] text-[24px] font-bold text-center mt-16'>Our Values</h1>
+            <h1 className='lg:text-[36px] text-[24px] font-bold text-center'>Our Values</h1>
             <h2 className='text-center lg:text-[24px] text-[18px] font-semibold'>What do we cherish?</h2>
         </div>
 

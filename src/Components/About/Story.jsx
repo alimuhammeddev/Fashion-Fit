@@ -1,5 +1,5 @@
 import React from 'react'
-import { Rectangle, couple } from '../../assets'
+import { couple } from '../../assets'
 
 const Story = () => {
   return (
