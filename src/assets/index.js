@@ -33,7 +33,12 @@ import twitter from "./twitter.png";
 import facebook from "./facebook.png";
 import instagram from "./instagram.png";
 import arrowdown from "./arrowdown.png";
-import walking from "./walking.png"
+import walking from "./walking.png";
+import Rectangle from "./Rectangle.png";
+import couple from "./couple.png";
+import check from "./check.png";
+import user from "./user.png";
+import group from "./group.png";
 
 
 
@@ -77,4 +82,9 @@ export{
     instagram,
     arrowdown,
     walking,
+    Rectangle,
+    couple,
+    group,
+    user,
+    check,
 }
