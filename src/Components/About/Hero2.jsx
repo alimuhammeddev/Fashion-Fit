@@ -8,9 +8,9 @@ const Hero2 = () => {
             <img src={walking} className='w-full lg:h-full h-[210px]' alt="" />
 
             <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}} className='mt-1'>
-                <h1 className='text-[#ffffff] lg:text-[48px] text-[20px] font-semibold'>How did FASHION FIT become a huge success</h1>
+                <h1 className='text-[#ffffff] lg:text-[48px] text-[20px] font-bold'>How did FASHION FIT become a huge success</h1>
                 <h2 className='text-[#ffffff] lg:text-[24px]'>Get inspired as you read about us</h2>
-                <div className='mx-auto text-center mt-1'>
+                <div className='mx-auto text-center lg:mt-10 mt-1'>
                     <button className='bg-[#307098] w-[190px] h-[48px] hover:text-[#307098] transition duration-500 ease-out text-[#ffffff] hover:bg-[#ffffff] border border-[#307098]'>Shop now</button>
                 </div>
             </div>
