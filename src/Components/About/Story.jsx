@@ -6,7 +6,7 @@ const Story = () => {
     <section className='bg-[#F1E0D2] lg:w-[1200px] lg:h-[529px] mt-36 mb-10 px-10 mx-auto lg:p-0 p-10'>
         <div>
             <div className='lg:ml-28'>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center space-x-5'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center lg:space-x-5'>
                     <div className='-mt-16'>
                         <img src={couple} alt="" />
                     </div>
