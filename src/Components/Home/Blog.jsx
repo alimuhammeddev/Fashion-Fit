@@ -1,7 +1,14 @@
 import React from 'react'
 import { accessories, beauty, fashion } from '../../assets'
+import { useNavigate } from 'react-router-dom';
 
 const Blog = () => {
+
+  const navigate = useNavigate();
+
+  const handleMoreBlogsClick = () => {
+    navigate('/blogs'); // Navigate to the desired route
+  };
   return (
     <section>
       <div>
@@ -30,7 +37,7 @@ const Blog = () => {
       </div>
 
       <div className='mx-auto text-center mt-7'>
-          <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098]'>More blogs</button>
+          <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098]' onClick={handleMoreBlogsClick}>More blogs</button>
       </div>
     </section>
   )

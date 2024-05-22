@@ -39,6 +39,10 @@ import couple from "./couple.png";
 import check from "./check.png";
 import user from "./user.png";
 import group from "./group.png";
+import hero1 from "./hero1.png";
+import talking from "./talking.png";
+import darkwoman from "./darkwoman.png";
+import style from "./style.png";
 
 
 
@@ -87,4 +91,8 @@ export{
     group,
     user,
     check,
+    hero1,
+    darkwoman,
+    style,
+    talking,
 }

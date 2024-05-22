@@ -9,6 +9,8 @@ import Blog from "./Home/Blog";
 import Footer from "./Home/Footer";
 import About from "../Pages/About";
 import Home from "../Pages/Home";
+import Blogs from "../Pages/Blogs";
+import BlogList from "./Blog/BlogList";
 
 export {
     Navbar,
@@ -22,4 +24,6 @@ export {
     Footer,
     About,
     Home,
+    Blogs,
+    BlogList,
 }
