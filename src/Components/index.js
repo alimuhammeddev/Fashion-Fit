@@ -11,6 +11,8 @@ import About from "../Pages/About";
 import Home from "../Pages/Home";
 import Blogs from "../Pages/Blogs";
 import BlogList from "./Blog/BlogList";
+import OurStory from "../Pages/OurStory";
+import Story2 from "./OurStory/Story2";
 
 export {
     Navbar,
@@ -26,4 +28,7 @@ export {
     Home,
     Blogs,
     BlogList,
+    OurStory,
+    Story2,
+
 }

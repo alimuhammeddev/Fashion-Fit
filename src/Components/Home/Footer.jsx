@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { arrowdown, facebook, instagram, logo, twitter } from '../../assets'
 import styles from '../../style'
 
@@ -21,21 +22,21 @@ const Footer = () => {
                 <h1 className='text-[20px] font-bold text-[#141415]'>About</h1>
                 <div className='space-y-3 mt-2'>
                     <ul className='space-y-2'>
-                    <li>
-                        <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Our Story</a>
-                    </li>
-                    <li>
-                        <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Blog</a>
-                    </li>
-                    <li>
-                        <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Legal</a>
-                    </li>
-                    <li>
-                        <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>FAQs</a>
-                    </li>
-                    <li>
-                        <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Contact us</a>
-                    </li>
+                        <li>
+                            <Link to="/our-story" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Our Story</Link>
+                        </li>
+                        <li>
+                            <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Legal</a>
+                        </li>
+                        <li>
+                            <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#!" className='text-[#141415] hover:text-[#307098] duration-500 transition ease-out'>Contact us</a>
+                        </li>
                     </ul>
                 </div>
             </div>

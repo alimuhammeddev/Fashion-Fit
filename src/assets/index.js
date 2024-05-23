@@ -43,6 +43,7 @@ import hero1 from "./hero1.png";
 import talking from "./talking.png";
 import darkwoman from "./darkwoman.png";
 import style from "./style.png";
+import smileywoman from "./smileywoman.png";
 
 
 
@@ -95,4 +96,5 @@ export{
     darkwoman,
     style,
     talking,
+    smileywoman,
 }
