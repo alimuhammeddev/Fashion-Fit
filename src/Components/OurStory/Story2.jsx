@@ -6,7 +6,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 const Story2 = () => {
   return (
     <section className='lg:mt-40 mt-28 pb-10'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-20'>
             <div>
                 <img src={smileywoman} alt="" />
             </div>
@@ -15,7 +15,7 @@ const Story2 = () => {
                     <h1 className='text-[#215373] font-semibold lg:text-[32px] text-[25px] -mt-3'>The ultimate fashion guide</h1>
                     <p className='text-[#307098] font-semibold'>by Rachel Funde</p>
                 </div>
-                <div className='lg:space-y-10 space-y-3'>
+                <div className='lg:space-y-[35px] space-y-3'>
                 <div className='mt-2'>
                     <h1 className='text-[#141415] text-[20px] font-semibold'>The ultimate fashion guide is here</h1>
                     <p className='text-[#141415] font-medium'>The ultimate fashion guide will help you to learn how to put your outfits together and look great without breaking the bank. Save more and shop from us. <br className='lg:block hidden'/>
@@ -52,7 +52,7 @@ const Story2 = () => {
             </div>
         </div>
 
-        <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-14 mt-5'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-24 mt-5'>
             <div className='lg:order-1 order-2'>
                 <div className='mt-2'>
                     <h1 className='font-bold text-[#141415] flex items-center'>

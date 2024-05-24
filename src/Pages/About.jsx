@@ -16,7 +16,7 @@ const About = () => {
       </div>
 
       <div>
-          <div className={`mt-20`}>
+          <div className={`lg:mt-28 mt-20`}>
             <Hero2 />
           </div>
       </div>

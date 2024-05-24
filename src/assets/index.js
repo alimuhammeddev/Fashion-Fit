@@ -45,6 +45,24 @@ import darkwoman from "./darkwoman.png";
 import style from "./style.png";
 import smileywoman from "./smileywoman.png";
 import smilecloth from "./smilecloth.png";
+import blackgown from "./blackgown.png";
+import boystyle from "./boystyle.png";
+import cargojean from "./cargojean.png";
+import corset from "./corset.png";
+import browngown from "./browngown.png";
+import croptop from "./croptop.png";
+import earings from "./earings.png";
+import hoops from "./hoops.png";
+import huggygown from "./huggygown.png";
+import jeans from "./jeans.png";
+import meshgown from "./meshgown.png";
+import oxfordshoe from "./oxfordshoe.png";
+import schoolbag from "./schoolbag.png";
+import shirt from "./shirt.png";
+import shoe from "./shoe.png";
+import top from "./top.png";
+import blackarrow from "./blackarrow.png";
+import rating3 from "./rating3.png";
 
 
 
@@ -55,6 +73,24 @@ export{
     logo,
     search,
     person,
+    blackgown,
+    blackarrow,
+    rating3,
+    boystyle,
+    cargojean,
+    corset,
+    browngown,
+    croptop,
+    earings,
+    hoops,
+    huggygown,
+    jeans,
+    meshgown,
+    oxfordshoe,
+    schoolbag,
+    shirt,
+    shoe,
+    top,
     cart,
     wishlist,
     hero,
