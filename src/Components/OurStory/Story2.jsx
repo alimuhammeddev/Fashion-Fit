@@ -21,34 +21,34 @@ const Story2 = () => {
                 <div className='mt-2'>
                     <h1 className='font-bold text-[#141415] flex items-center'>
                     <FontAwesomeIcon icon={faCircle} className='text-[#141415] mr-2' style={{ fontSize: '7px' }} />
-                    Know your personal style </h1>
+                    Know your personal style</h1>
                     <h2 className='ml-4'>Start by identifying your personal style preferences. Are you drawn to classic, minimalistic, bohemian, edgy, or eclectic styles? Knowing your style will guide your clothing choices and help you create cohesive outfits.</h2>
-               </div>
+                </div>
 
-               <div className='mt-2'>
+                <div className='mt-2'>
                     <h1 className='font-bold text-[#141415] flex items-center'>
                     <FontAwesomeIcon icon={faCircle} className='text-[#141415] mr-2' style={{ fontSize: '7px' }} />
-                    Know your personal style </h1>
-                    <h2 className='ml-4'>Start by identifying your personal style preferences. Are you drawn to classic, minimalistic, bohemian, edgy, or eclectic styles? Knowing your style will guide your clothing choices and help you create cohesive outfits.</h2>
-               </div>
+                    Plan ahead</h1>
+                    <h2 className='ml-4'>Take a few moments each evening or on weekends to plan your outfits for the upcoming week. This saves time and prevents rushed decisions that might lead to mismatched outfits.</h2>
+                </div>
 
-               <div className='mt-2'>
+                <div className='mt-2'>
                     <h1 className='font-bold text-[#141415] flex items-center'>
                     <FontAwesomeIcon icon={faCircle} className='text-[#141415] mr-2' style={{ fontSize: '7px' }} />
-                    Know your personal style </h1>
-                    <h2 className='ml-4'>Start by identifying your personal style preferences. Are you drawn to classic, minimalistic, bohemian, edgy, or eclectic styles? Knowing your style will guide your clothing choices and help you create cohesive outfits.</h2>
-               </div>
+                    Mix and match</h1>
+                    <h2 className='ml-4'>Experiment with mixing different clothing items to create new combinations. Don't be afraid to pair unexpected pieces together, like a casual t-shirt with a tailored blazer or a flowy dress with a denim jacket.</h2>
+                </div>
 
-               <div className='mt-2'>
+                <div className='mt-2'>
                     <h1 className='font-bold text-[#141415] flex items-center'>
                     <FontAwesomeIcon icon={faCircle} className='text-[#141415] mr-2' style={{ fontSize: '7px' }} />
-                    Know your personal style </h1>
-                    <h2 className='ml-4'>Start by identifying your personal style preferences. Are you drawn to classic, minimalistic, bohemian, edgy, or eclectic styles? Knowing your style will guide your clothing choices and help you create cohesive outfits.</h2>
-               </div>
+                    Focus on basic</h1>
+                    <h2 className='ml-4'>Invest in high-quality basic pieces like plain t-shirts, well-fitting jeans, neutral-colored blouses, and versatile jackets. These form the foundation of your wardrobe and can be easily paired with statement pieces.</h2>
+                </div>
             </div>
         </div>
     </section>
-  )
-}
+  );
+};
 
 export default Story2
