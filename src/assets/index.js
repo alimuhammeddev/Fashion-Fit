@@ -44,6 +44,7 @@ import talking from "./talking.png";
 import darkwoman from "./darkwoman.png";
 import style from "./style.png";
 import smileywoman from "./smileywoman.png";
+import smilecloth from "./smilecloth.png";
 
 
 
@@ -97,4 +98,5 @@ export{
     style,
     talking,
     smileywoman,
+    smilecloth,
 }

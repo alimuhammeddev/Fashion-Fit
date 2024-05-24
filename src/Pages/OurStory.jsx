@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { Navbar, Story2 } from '../Components'
+import { Footer, Navbar, Story2 } from '../Components'
 
 const OurStory = () => {
   return (
@@ -13,11 +13,19 @@ const OurStory = () => {
 
         <div className='lg:px-32'>
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
-                <Story2 />
-            </div>
+                <div className={`${styles.boxWidth}`}>
+                    <Story2 />
+                </div>
             </div>
         </div>
+
+        <div className='bg-[#F3E5D9] pb-8'>
+        <div>
+          <div>
+            <Footer />
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
