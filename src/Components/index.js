@@ -13,6 +13,8 @@ import Blogs from "../Pages/Blogs";
 import BlogList from "./Blog/BlogList";
 import OurStory from "../Pages/OurStory";
 import Story2 from "./OurStory/Story2";
+import AllProduct from "../Pages/AllProduct";
+import ProductHero from "./AllProduct/ProductHero";
 
 export {
     Navbar,
@@ -30,5 +32,7 @@ export {
     BlogList,
     OurStory,
     Story2,
+    AllProduct,
+    ProductHero,
 
 }

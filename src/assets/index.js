@@ -63,6 +63,14 @@ import shoe from "./shoe.png";
 import top from "./top.png";
 import blackarrow from "./blackarrow.png";
 import rating3 from "./rating3.png";
+import smallblackgown1 from "./smallblackgown1.png";
+import smallblackgown2 from "./smallblackgown2.png";
+import smallblackgown3 from "./smallblackgown3.png";
+import smallblackgown4 from "./smallblackgown4.png";
+import blackgown2 from "./blackgown2.png";
+import blackgown3 from "./blackgown3.png";
+import blackgown4 from "./blackgown4.png";
+import blackgown5 from "./blackgown5.png";
 
 
 
@@ -74,7 +82,15 @@ export{
     search,
     person,
     blackgown,
+    smallblackgown1,
+    smallblackgown2,
+    smallblackgown3,
+    smallblackgown4,
     blackarrow,
+    blackgown2,
+    blackgown3,
+    blackgown4,
+    blackgown5,
     rating3,
     boystyle,
     cargojean,

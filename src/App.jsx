@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Blogs from './Pages/Blogs';
 import OurStory from './Pages/OurStory';
 import Collections from './Pages/Collections';
+import { AllProduct } from './Components';
 const App = () => (
   <Router>
   <div>
@@ -14,6 +15,7 @@ const App = () => (
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/our-story" element={<OurStory />} />
       <Route path="/collections" element={<Collections />} />
+      <Route path="/all-products" element={<AllProduct/>} />
     </Routes>
   </div>
   </Router>

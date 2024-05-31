@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { arrowleft, arrowright, blackarrow, blackgown, boystyle, browngown, cargojean, corset, croptop, earings, hoops, huggygown, jeans, meshgown, oxfordshoe, rating1, rating2, rating3, schoolbag, shirt, shoe, top, wishlist } from '../../assets'
 
 const CollectionHero = () => {
@@ -11,7 +12,7 @@ const CollectionHero = () => {
                 <div className='mt-5'>
                     <h1 className='text-[#141415] lg:text-[20px] font-bold'>Collections</h1>
                     <ul className='mt-3'>
-                        <li className='hover:bg-[#F9F3EE] w-[180px] h-[26px] px-2 -ml-2'><a href="#!">All products</a></li>
+                        <li className='hover:bg-[#F9F3EE] w-[180px] h-[26px] px-2 -ml-2'><Link to="/all-products">All products</Link></li>
                         <li className='hover:bg-[#F9F3EE] w-[180px] h-[26px] px-2 -ml-2'><a href="#!">Men</a></li>
                         <li className='hover:bg-[#F9F3EE] w-[180px] h-[26px] px-2 -ml-2'><a href="#!">Women</a></li>
                         <li className='hover:bg-[#F9F3EE] w-[180px] h-[26px] px-2 -ml-2'><a href="#!">New collections</a></li>

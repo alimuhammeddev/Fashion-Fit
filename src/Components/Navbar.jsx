@@ -18,7 +18,7 @@ const Navbar = () => {
     };
 return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
-      <div className='md:flex items-center justify-between bg-white py-4 lg:px-48 px-7 lg:h-[120px]'>
+      <div className='md:flex items-center justify-between bg-white lg:py-8 py-4 lg:px-48 px-7'>
             <div className='cursor-pointer'>
               <img src={logo} alt="" />
             </div>
