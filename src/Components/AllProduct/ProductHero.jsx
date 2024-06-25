@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import KeenSlider from 'keen-slider';
-import { blackarrow, blackgown2, blackgown3, blackgown4, blackgown5, rating1, smallblackgown1, smallblackgown2, smallblackgown3, smallblackgown4, } from '../../assets'
+import { blackarrow, blackgown2, blackgown3, blackgown4, blackgown5, rating1, smallblackgown1, smallblackgown2, smallblackgown3, smallblackgown4, wishlist, } from '../../assets'
 
 function ProductHero () {
     useEffect(() => {
@@ -110,7 +110,7 @@ function ProductHero () {
             <div id="product-keen-slider" className="keen-slider -mt-10">
                 <div className="keen-slider__slide justify-center">
                     <div className='pb-2 mt-10 '>
-                    <img src={blackgown2} alt="" className='h-[608px] w-full'/>
+                    <img src={blackgown2} alt=""/>
                     </div>
                 </div>
     
@@ -147,7 +147,7 @@ function ProductHero () {
                 </div>
             </div>
             <p className='text-[12px] text-[#307098] font-bold underline'>Size guide</p>
-            <div className='flex items-center gap-2'>
+            <div className='flex items-center gap-6'>
                 <div>
                     <div className='flex items-center justify-between space-x-10 border lg:w-[180px] p-2'>
                         <h1 className='lg:text-[16px] text-[12px]'>Size</h1>
@@ -161,7 +161,21 @@ function ProductHero () {
                     </div>
                 </div>
             </div>
+            <div className='mx-auto text-center mt-7'>
+                <button className='bg-[#307098] w-[384px] h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098] font-bold flex items-center justify-center'>Add to cart</button>
+            </div>
+            <div className='mx-auto text-center mt-7'>
+                <button className='bg-[#ffffff] w-[384px] h-[48px] text-[#307098] hover:text-[#ffffff] transition duration-500 ease-out hover:bg-[#307098] border border-[#307098] font-bold flex items-center gap-3 justify-center'>Add to wishlist
+                <img src={wishlist} alt="" />
+                </button>
+            </div>
+            <div className='mt-5'>
+                <h1 className='text-[#141415] font-bold text-[12px]'>Description</h1>
+                <h2 className='text-[#141415D9] font-medium text-[12px]'>Exude timeless elegance with this Mesh Gown. It was crafted from luxurious black fabric, this gown embraces simplicity with a touch of <span style={{background: 'linear-gradient(180.00deg, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.37) 41.304%)',backgroundClip: 'text', WebkitBackgroundClip: 'text',}}>sophistication. The mid-thigh length silhouette flatters...</span> <span><a href="#" className='hover:underline text-[#307098]'>Read More</a></span></h2>
+            </div>
         </div>
+    </div>
+    <div>
     </div>
     </section>
   )
