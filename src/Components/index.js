@@ -15,6 +15,7 @@ import OurStory from "../Pages/OurStory";
 import Story2 from "./OurStory/Story2";
 import AllProduct from "../Pages/AllProduct";
 import ProductHero from "./AllProduct/ProductHero";
+import Productcarousel from "./AllProduct/Productcarousel";
 
 export {
     Navbar,
@@ -34,5 +35,6 @@ export {
     Story2,
     AllProduct,
     ProductHero,
+    Productcarousel,
 
 }

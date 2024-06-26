@@ -71,7 +71,14 @@ import blackgown2 from "./blackgown2.png";
 import blackgown3 from "./blackgown3.png";
 import blackgown4 from "./blackgown4.png";
 import blackgown5 from "./blackgown5.png";
-
+import adycegown from "./adycegown.png";
+import darkbrown from "./darkbrown.png";
+import darkbrowngown from "./darkbrowngown.png";
+import finegown from "./finegown.png";
+import pinkgown from "./pinkgown.png";
+import polkagown from "./polkagown.png";
+import stripedpattern from "./stripedpattern.png";
+import womansweater from "./womansweater.png";
 
 
 
@@ -80,6 +87,14 @@ import blackgown5 from "./blackgown5.png";
 export{
     logo,
     search,
+    adycegown,
+    darkbrown,
+    darkbrowngown,
+    finegown,
+    pinkgown,
+    polkagown,
+    stripedpattern,
+    womansweater,
     person,
     blackgown,
     smallblackgown1,

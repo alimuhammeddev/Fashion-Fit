@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import KeenSlider from 'keen-slider';
 import { blackarrow, blackgown2, blackgown3, blackgown4, blackgown5, rating1, smallblackgown1, smallblackgown2, smallblackgown3, smallblackgown4, wishlist, } from '../../assets'
 
 function ProductHero () {
+    const sliderRef = useRef(null);
     useEffect(() => {
         // Create a script element
         const script = document.createElement('script');
@@ -38,8 +39,35 @@ function ProductHero () {
           const keenSliderPrevious = document.getElementById("product-keen-slider-previous");
           const keenSliderNext = document.getElementById("product-keen-slider-next");
     
-          keenSliderPrevious.addEventListener('click', () => keenSlider.prev());
-          keenSliderNext.addEventListener('click', () => keenSlider.next());
+          keenSliderPrevious.addEventListener('click', () => {
+            keenSlider.prev();
+          });
+    
+          keenSliderNext.addEventListener('click', () => {
+            keenSlider.next();
+          });
+    
+          const thumbnails = document.querySelectorAll('#thumbnail-container li');
+          
+          const updateActiveThumbnail = () => {
+            thumbnails.forEach((thumb, index) => {
+              if (index === keenSlider.track.details.rel) {
+                thumb.classList.add('border-[#557F99]');
+                thumb.classList.add('border-2');
+              } else {
+                thumb.classList.remove('border-[#557F99]');
+                thumb.classList.remove('border-2');
+              }
+            });
+          };
+
+          // Update thumbnails on slide change
+        keenSlider.on('slideChanged', () => {
+            updateActiveThumbnail();
+        });
+
+    
+          updateActiveThumbnail(); // Initial call to set the first thumbnail as active
         };
     
         // Set the onload event to initialize the slider after the script is loaded
@@ -53,18 +81,18 @@ function ProductHero () {
           document.head.removeChild(script);
         };
       }, []); // Empty dependency array ensures the effect runs only once
-  return (
+    return (
     <section>
         <div>
             <h1 className='text-[#999999] font-semibold'>Home / Collections / All Products</h1>
         </div>
         <div className='mt-7 grid grid-cols-1 lg:grid-cols-3 gap-10'>
             <div>
-            <ul className='space-y-4'>
+            <ul id='thumbnail-container' className='space-y-4'>
                 <li className='border-[#557F99] border-2 w-fit'><img src={smallblackgown1} alt="" /></li>
-                <li ><img src={smallblackgown2} alt="" /></li>
-                <li ><img src={smallblackgown3} alt="" /></li>
-                <li ><img src={smallblackgown4} alt="" /></li>
+                <li className='w-fit'><img src={smallblackgown2} alt="" /></li>
+                <li className='w-fit'><img src={smallblackgown3} alt="" /></li>
+                <li className='w-fit'><img src={smallblackgown4} alt="" /></li>
             </ul>
             </div>
         <div>
