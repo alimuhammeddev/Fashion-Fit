@@ -6,6 +6,7 @@ import Blogs from './Pages/Blogs';
 import OurStory from './Pages/OurStory';
 import Collections from './Pages/Collections';
 import { AllProduct } from './Components';
+import Contact from './Pages/Contact';
 const App = () => (
   <Router>
   <div>
@@ -16,6 +17,7 @@ const App = () => (
       <Route path="/our-story" element={<OurStory />} />
       <Route path="/collections" element={<Collections />} />
       <Route path="/all-products" element={<AllProduct/>} />
+      <Route path="/contact" element={<Contact/>} />
     </Routes>
   </div>
   </Router>

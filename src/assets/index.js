@@ -79,6 +79,9 @@ import pinkgown from "./pinkgown.png";
 import polkagown from "./polkagown.png";
 import stripedpattern from "./stripedpattern.png";
 import womansweater from "./womansweater.png";
+import contact from "./contact.png";
+import call from "./call.png";
+import email from "./email.png";
 
 
 
@@ -87,6 +90,9 @@ import womansweater from "./womansweater.png";
 export{
     logo,
     search,
+    call,
+    email,
+    contact,
     adycegown,
     darkbrown,
     darkbrowngown,

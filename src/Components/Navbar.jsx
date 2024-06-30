@@ -6,7 +6,7 @@ const Navbar = () => {
       {name: "Home",link:"/" },
       {name: "About us", link:"/about" },
       {name: "Collections", link:"/collections" },
-      {name: "Contact us", link:"/" },
+      {name: "Contact us", link:"/contact" },
     ];
 
     const navigate = useNavigate();

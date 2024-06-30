@@ -16,12 +16,14 @@ import Story2 from "./OurStory/Story2";
 import AllProduct from "../Pages/AllProduct";
 import ProductHero from "./AllProduct/ProductHero";
 import Productcarousel from "./AllProduct/Productcarousel";
+import Contact from "../Pages/Contact";
 
 export {
     Navbar,
     Hero,
     Collection,
     Occassion,
+    Contact,
     Sellers,
     Reviews,
     Benefit,
