@@ -352,15 +352,45 @@ const CollectionHero = () => {
                 <div className='mt-10 flex items-center justify-between'>
                     <h1 className='text-[#141415D9] font-bold lg:text-[16px] text-[13px]'>1-16 of 8,428 items</h1>
                     <div className='flex items-center lg:space-x-5 space-x-2'>
-                        <img src={arrowleft} alt="" className='hover:bg-[#F9F3EE] cursor-pointer p-2 rounded-sm'/>
-                        <h1 className='cursor-pointer'>1</h1>
+                    <button
+                    className="transform rounded-md p-2 transition hover:bg-[#F9F3EE] text-[#B1C4D0] hover:text-[#0A3B5A] z-10"
+                >
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="size-5 rtl:rotate-180"
+                    >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                    </button>
+                        <h1 className='cursor-pointer font-bold underline'>1</h1>
                         <h2 className='cursor-pointer'>2</h2>
                         <h3 className='cursor-pointer'>3</h3>
                         <h4 className='cursor-pointer'>4</h4>
                         <h5 className='cursor-pointer'>5</h5>
                         <h1 className='cursor-pointer'>...</h1>
                         <h2 className='cursor-pointer'>526</h2>
-                        <img src={arrowright} alt="" className='hover:bg-[#F9F3EE] cursor-pointer p-2 rounded-sm'/>
+                    <button
+                    className="transform rounded-md p-2 transition hover:bg-[#F9F3EE] text-[#B1C4D0] hover:text-[#0A3B5A] z-10"
+                >
+                <svg
+                    className="size-5 rtl:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                    d="M9 5l7 7-7 7"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    />
+                </svg>
+                </button>
                     </div>
                 </div>
             </div>

@@ -7,9 +7,11 @@ import OurStory from './Pages/OurStory';
 import Collections from './Pages/Collections';
 import { AllProduct } from './Components';
 import Contact from './Pages/Contact';
+import ScrollToTop from './Components/ScrollToTop';
 const App = () => (
   <Router>
   <div>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />

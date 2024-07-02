@@ -97,11 +97,11 @@ function ProductHero () {
             </div>
         <div>
             <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-0 xl:py-24 lg:-mt-16">
-            <div className='relative'>
+            <div className='relative lg:-space-x-56'>
                 <button
                     aria-label="Previous slide"
                     id="product-keen-slider-previous"
-                    className="absolute lg:-left-5 -left-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-10 bg-[#557F99]"
+                    className="absolute lg:-left-60 -left-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-10 bg-[#557F99]"
                 >
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ function ProductHero () {
                 <button
                     aria-label="Next slide"
                     id="product-keen-slider-next"
-                    className="absolute lg:-right-5 -right-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-10"
+                    className="absolute lg:right-16 -right-9 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-10"
                 >
                 <svg
                     className="size-6 rtl:rotate-180"
@@ -190,10 +190,10 @@ function ProductHero () {
                 </div>
             </div>
             <div className='mx-auto text-center mt-7'>
-                <button className='bg-[#307098] lg:w-[384px] w-[250px] h-[48px] lg:h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098] font-bold flex items-center justify-center'>Add to cart</button>
+                <button className='bg-[#307098] lg:w-[384px] w-[300px] h-[48px] lg:h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098] font-bold flex items-center justify-center'>Add to cart</button>
             </div>
             <div className='mx-auto text-center mt-7'>
-                <button className='bg-[#ffffff] lg:w-[384px] w-[250px] h-[48px] lg:h-[48px] text-[#307098] hover:text-[#ffffff] transition duration-500 ease-out hover:bg-[#307098] border border-[#307098] font-bold flex items-center gap-3 justify-center'>Add to wishlist
+                <button className='bg-[#ffffff] lg:w-[384px] w-[300px] h-[48px] lg:h-[48px] text-[#307098] hover:text-[#ffffff] transition duration-500 ease-out hover:bg-[#307098] border border-[#307098] font-bold flex items-center gap-3 justify-center'>Add to wishlist
                 <img src={wishlist} alt="" />
                 </button>
             </div>
