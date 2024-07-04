@@ -11,7 +11,7 @@ const Occassion = () => {
             <h1 className='text-[#141415] lg:text-[36px] text-[26px] font-semibold text-center'>Outfit for every occassion</h1>
             <p className='lg:text-[24px] text-[18px] mt-2 text-[#141415] text-center'>Explore outfits that are perfect for your next beach outing</p>
             <div className='mx-auto text-center mt-5'>
-              <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098]'>Shop now</button>
+              <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] transition duration-500 ease-out border border-[#307098]'>Shop now</button>
             </div>
         </div>
     </section>

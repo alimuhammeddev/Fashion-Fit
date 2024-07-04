@@ -89,7 +89,7 @@ const Collection = () => {
             </div>
         </div>
         <div className='mx-auto text-center mt-7'>
-            <button className='bg-[#307098] w-[190px] h-[48px] hover:text-[#307098] transition duration-500 ease-out text-[#ffffff] hover:bg-[#ffffff] border border-[#307098]'>Shop all</button>
+            <button className='bg-[#307098] w-[190px] h-[48px] transition duration-500 ease-out text-[#ffffff] border border-[#307098]'>Shop all</button>
         </div>
     </section>
   )

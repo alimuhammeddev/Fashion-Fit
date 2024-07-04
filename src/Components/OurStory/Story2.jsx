@@ -92,7 +92,7 @@ const Story2 = () => {
         </div>
 
         <div className='mx-auto text-center mt-6'>
-            <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098]'>More Stories</button>
+            <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] transition duration-500 ease-out border border-[#307098]'>More Stories</button>
         </div>
     </section>
   );

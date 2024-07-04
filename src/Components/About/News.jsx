@@ -17,7 +17,7 @@ const News = () => {
         </div>
         <div>
             <div className='mx-auto text-center lg:mt-10 mt-7'>
-                <button className='bg-[#307098] w-[190px] h-[48px] hover:text-[#307098] transition duration-500 ease-out text-[#ffffff] hover:bg-[#ffffff] border border-[#307098]'>Subscribe</button>
+                <button className='bg-[#307098] w-[190px] h-[48px] transition duration-500 ease-out text-[#ffffff] border border-[#307098]'>Subscribe</button>
             </div>
         </div>
     </section>

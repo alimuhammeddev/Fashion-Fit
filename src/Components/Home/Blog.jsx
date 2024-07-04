@@ -37,7 +37,7 @@ const Blog = () => {
       </div>
 
       <div className='mx-auto text-center mt-7'>
-          <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] hover:text-[#307098] transition duration-500 ease-out hover:bg-[#ffffff] border border-[#307098]' onClick={handleMoreBlogsClick}>More blogs</button>
+          <button className='bg-[#307098] w-[190px] h-[48px] text-[#ffffff] transition duration-500 ease-out border border-[#307098]' onClick={handleMoreBlogsClick}>More blogs</button>
       </div>
     </section>
   )
