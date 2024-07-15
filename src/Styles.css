@@ -1,0 +1,10 @@
+/* styles.css */
+#image-container {
+    position: relative;
+  }
+  
+  #chat-expert {
+    transition: position 0.3s, top 0.3s;
+    width: max-content;
+  }
+  

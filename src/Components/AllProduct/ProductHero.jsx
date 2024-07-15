@@ -190,10 +190,10 @@ function ProductHero () {
                 </div>
             </div>
             <div className='mx-auto text-center mt-7'>
-                <button className='bg-[#307098] lg:w-[384px] w-[300px] h-[48px] lg:h-[48px] text-[#ffffff] transition duration-500 ease-out border border-[#307098] font-bold flex items-center justify-center'>Add to cart</button>
+                <button className='bg-[#307098] lg:w-[384px] w-[280px] h-[48px] lg:h-[48px] text-[#ffffff] transition duration-500 ease-out border border-[#307098] font-bold flex items-center justify-center'>Add to cart</button>
             </div>
             <div className='mx-auto text-center mt-7'>
-                <button className='bg-[#ffffff] lg:w-[384px] w-[300px] h-[48px] lg:h-[48px] text-[#307098] transition duration-500 ease-out border border-[#307098] font-bold flex items-center gap-3 justify-center'>Add to wishlist
+                <button className='bg-[#ffffff] lg:w-[384px] w-[280px] h-[48px] lg:h-[48px] text-[#307098] transition duration-500 ease-out border border-[#307098] font-bold flex items-center gap-3 justify-center'>Add to wishlist
                 <img src={wishlist} alt="" />
                 </button>
             </div>
