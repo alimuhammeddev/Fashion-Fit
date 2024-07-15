@@ -60,7 +60,7 @@ function Productcarousel() {
         <button
             aria-label="Previous slide"
             id="productcarousel-keen-slider-previous"
-            className="absolute lg:-left-3 left-5 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-10 bg-[#557F99]"
+            className="absolute lg:-left-3 -left-5 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition hover:bg-[#CAD7DF] text-white z-10 bg-[#557F99]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function Productcarousel() {
           <button
             aria-label="Next slide"
             id="productcarousel-keen-slider-next"
-            className="absolute lg:-right-3 right-5 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-10"
+            className="absolute lg:-right-3 -right-5 top-1/2 transform -translate-y-1/2 rounded-full p-2 transition bg-[#557F99] hover:bg-[#CAD7DF] text-white z-10"
           >
            <svg
             className="size-6 rtl:rotate-180"
