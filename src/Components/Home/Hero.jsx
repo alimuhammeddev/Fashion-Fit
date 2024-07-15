@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import { hero, whatsapp } from '../../assets'
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
         
         <div className='mt-5 flex justify-center relative'>
             <img src={hero} alt="" className='w-[1200px]'/>
-            <div className="fixed top-1/2 lg:right-[190px] right-0 rounded-full transform -translate-y-1/2 bg-white lg:px-6 lg:py-4 px-2 py-2 flex items-center space-x-1 lg:mt-5 lg:mr-0 mr-6 z-20">
+            <div className="fixed top-1/2 lg:right-[190px] right-0 rounded-full transform -translate-y-1/2 bg-white lg:px-6 lg:py-4 px-2 py-2 flex items-center space-x-1 lg:mt-[250px] mt-[70px] lg:mr-0 mr-6 z-20">
                 <img src={whatsapp} alt="" />
                 <p className="text-[#0A3B5A] lg:text-xl text-base font-medium lg:block hidden">Chat with an expert</p>
             </div>

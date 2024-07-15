@@ -16,7 +16,7 @@ const Hero3 = () => {
             <h1 className='text-[#141415] text-[24px] font-semibold text-center'>Do you have any enquires?</h1>
             <p className='text-[#141415] text-[16px] text-center'>We are available 24 hours, 7 days.</p>
         </div>
-        <div className='flex items-center justify-center lg:gap-28 lg:mt-10 mt-5'>
+        <div className='flex lg:flex-row flex-col lg:items-center lg:justify-center lg:gap-28 lg:mt-10 mt-5'>
             <div className='flex items-center'>
                 <img src={call} alt="" className='lg:w-fit w-20'/>
                 <div className='-mt-5'>
