@@ -10,7 +10,7 @@ import Contact from './Pages/Contact';
 import ScrollToTop from './Components/ScrollToTop';
 const App = () => (
   <Router>
-  <div>
+  <div >
     <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
